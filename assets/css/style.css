@@ -78,12 +78,6 @@ header {
   position: relative;
 }
 
-.dropdown-button {
-  background: unset;
-  border: unset;
-  font-size: 1.5rem;
-}
-
 .dropdown-menu {
   background: #fff;
   font-size: 1rem;
@@ -93,13 +87,11 @@ header {
   position: absolute;
   top: 0;
   right: 0;
-  opacity: 1;
   transform: translateY(-120%);
   transition: all 0.3s;
 }
 
 .dropdown > .dropdown-link:focus + .dropdown-menu {
-  opacity: 1;
   transform: translateY(0);
 }
 
