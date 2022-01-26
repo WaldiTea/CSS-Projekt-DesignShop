@@ -24,8 +24,17 @@ body {
   margin: 0 auto;
 }
 
+figure {
+  background: #eee;
+}
+
 img {
   width: 100%;
+  transition: all 0.5s;
+}
+
+img:hover {
+  opacity: 0.4;
 }
 
 /*
@@ -50,6 +59,7 @@ header {
 
 .header-title {
   font-weight: 700;
+  transition: all 0.3s;
 }
 
 .link-list {
@@ -57,9 +67,18 @@ header {
   list-style: none;
 }
 
+.link {
+  transition: all 0.3s;
+}
+
 .fas.fa-bars {
   display: none;
   font-size: 1.75rem;
+}
+
+.header-title:hover,
+.link:hover {
+  color: #848484;
 }
 
 /*
