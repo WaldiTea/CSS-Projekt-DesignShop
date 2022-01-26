@@ -139,6 +139,12 @@ footer article p span {
     flex-direction: column;
   }
 
+  footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 780px) {
   .link-list {
     display: none;
   }
@@ -146,13 +152,9 @@ footer article p span {
   .fas.fa-bars {
     display: inline;
   }
-
-  footer {
-    grid-template-columns: 1fr;
-  }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   footer {
     grid-template-columns: 1fr;
   }
